@@ -21,7 +21,7 @@ const QtdButton = (props) => {
         const message = `Olá, gostaria de fazer um pedido.
         Quero ${qtd} pizza de ${props.name}`;
 
-        const url = `whatsapp://send?text=${message}&phone=5516992073929`;
+        const url = `whatsapp://send?text=${message}&phone=5516992421264`;
 
         Linking.openURL(url);
     }
